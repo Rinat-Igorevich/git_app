@@ -4,4 +4,5 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor'. DIRECTORY_SEPARATOR . 'au
 $app = new \Symfony\Component\Console\Application('demo git');
 $app->add(new \App\SayHello());
 $app->add(new \App\RepeatString());
+$app->add(new \App\InteractiveHello());
 $app->run();
